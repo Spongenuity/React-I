@@ -1,7 +1,16 @@
 /*eslint no-unused-vars: "off"*/
 import React from 'react';
-import ReactDom from 'react-dom';
+import {render} from 'react-dom';
+import ToDo from './ToDo';
 
 require('!style-loader!css-loader!sass-loader!./index.scss');
 
-ReactDom.render(<div>Hello World!</div>, document.getElementById('root'));
+const App = () => (
+  <div>
+    <ToDo />
+  </div>
+  );
+
+
+
+render(<App />, document.getElementById('root'));

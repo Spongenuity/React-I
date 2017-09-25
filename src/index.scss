@@ -1,2 +1,74 @@
 // global styles go in here. 
 // When you start writing styles for your individual components you'll have to start importing them
+
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+
+
+
+* {
+font-family: Inconsolata;
+width: 300px;
+margin: 0 auto;
+/*style="width: 200px; margin: 0 auto;"*/
+
+}
+
+body {
+/*	margin: 0 auto;
+	text-align: center;*/
+
+}
+
+h1 {
+	/*text-align: center;*/
+}
+
+p {
+
+}
+
+input {
+	/*width: 50%;*/
+
+}
+
+ul {
+	text-align: left;
+}
+
+#todo-input {
+	list-style: none;
+	font-size: 14px;
+	line-height: 2em;
+	border: none;
+	border-bottom: 1px solid #000;
+	padding-left: 10;
+}
+
+#todo-list {
+	list-style: none;
+	font-size: 14px;
+	line-height: 2em;
+	margin: 0;
+	padding-left: 0;
+	padding-bottom: 20;
+}
+
+#todo-div {
+	text-align: center;
+}
+
+
+/*div {
+	color:#01F261;
+
+    &:first-of-type {
+        color:#01F261 + 100%;
+    }
+
+    &:last-of-type {
+        color:#01F261 - 100%;
+    }
+
+}*/
